@@ -18,7 +18,9 @@ resp:
 302 confirm html
 ```
 ## /oauth/confirm/
+```
 req:
 POST /oauth/confirm/  confirm=xxx&scope=xxx
 resp:
 302 rediret_url=xxx&code=xxx
+```
